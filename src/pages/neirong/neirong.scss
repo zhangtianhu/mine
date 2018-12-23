@@ -1,0 +1,88 @@
+page-neirong {
+  //
+
+  .title {
+    max-width: 15em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 4.5em;
+    margin: 0;
+  }
+  .date {
+    float: right;
+    margin: 0;
+  }
+
+  .div {
+    border-bottom: 1px solid gray;
+    .img{
+      height: 18em;
+      width: 100%;
+    }
+  }
+  .row{
+    margin: 0;
+    width: 100%;
+  }
+
+  .left{
+    overflow: hidden;
+  }
+  .username {
+    max-width: 4em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0;
+    float: left;
+    position: relative;
+    top: 1.5em;
+  }
+
+  .tx {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% 50%;
+    overflow: hidden;
+  }
+  .likes {
+  line-height: 5em;
+  float: left;
+  }
+  #star{
+    font-size: 2.2em;
+  }
+  .collected{
+    color:red;
+  }
+  .like{
+  font-size:2em;
+  }
+  .liked{
+  color:red !important;
+  }
+  #follow{
+  display: block;
+  width: 5em;
+  height: 30px;
+  margin: 0;
+  background: rgb(247, 247, 247);
+  border: 1px solid red;
+  border-radius: 5px;
+  color: red;
+  outline: none;
+  position: relative;
+  top:1em;
+  }
+  #follow:hover{  
+  background: rgba(233, 7, 7, 0.2);
+  }
+  #true{
+  display: inline;
+  }
+  #false{
+  display: none;
+  }
+}

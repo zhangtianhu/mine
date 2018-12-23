@@ -1,0 +1,56 @@
+page-guanzhu {
+
+    .header{
+        height: 60px;      
+        background-color: rgb(248, 248, 248);        
+        padding-top: 6%;
+        padding-bottom: 3%;
+        p{
+        font-size: 1em;
+        display: inline;
+        margin-left: 37%;                
+        }        
+    }
+
+    .block{
+        margin-top: 5%;
+        margin-bottom :3%;
+        h2{
+            color: rgb(65, 125, 238)
+        }
+        p{
+            font-size: 11px;
+        }
+    }
+
+    // .guanzhu{
+    //     border: 0.5px solid black;
+    //     height: 20px;
+    //     width: 65px;
+    //     float: right;
+    //     background-color: rgb(248, 248, 248);
+    // }
+
+    #follow{
+        display: block;
+        width: 25%;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 8px;
+        background: rgb(247, 247, 247);
+        border: 1px solid red;
+        border-radius: 5px;
+        color: red;
+        outline: none;
+        float: right;
+    }
+    #follow:hover{
+        background: rgba(233, 7, 7, 0.2);
+    }
+    #true{
+        display: inline;
+    }
+    #false{
+        display: none;
+    }
+}

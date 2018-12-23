@@ -1,0 +1,41 @@
+<!--
+  Generated template for the MePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content>
+  <div class="header" no-border>
+    <div class="bgmy">
+        <div class="tou">
+          <img src="assets/imgs/icon.png" class="my" (click)="goMy()">
+          <p>赫恩曼尼</p>
+        </div>
+      </div>
+  </div>
+  <div class="a">
+    <p style="text-align:center;margin-top: 0;padding-top: 5px;">我的收藏</p>
+
+    <div class="y row">
+      <button class="u col" (click)="Text()"><i class="iconfont icon-book"></i></button>
+      <button class="u col" (click)="Video()"><i class="iconfont icon-video"></i></button>
+      <button class="u col" (click)="Music()"><i class="iconfont icon-music"></i></button>
+      <button class="u col" (click)="Image()"><i class="iconfont icon-tupian1"></i></button>
+    </div>
+    <div class="row">
+      <p class="col">文章</p>
+      <p class="col">视频</p>
+      <p class="col">音乐</p>
+      <p class="col">图片</p>
+    </div>
+  </div>
+  <button ion-item class="list" (click)="function4()"><i class="iconfont icon-guanzhu" style="font-size:20px;margin-right:10px"></i>我的关注<i class="iconfont icon-arrow-right" style="float:right"></i></button>
+  <button ion-item class="list" (click)="Share()"><i class="iconfont icon-fabu" style="font-size:20px;margin-right:10px"></i>我的分享<i class="iconfont icon-arrow-right" style="float:right"></i></button>
+  <button ion-item class="list" (click)="Interest()"><i class="iconfont icon-caogaoxiang" style="font-size:20px;margin-right:10px"></i>草稿箱<i class="iconfont icon-arrow-right" style="float:right"></i></button>
+  <div style="height:15%;background-color:rgba(248,248,248);padding-top:5%">
+    <button ion-item class="list" (click)="function5()"><i class="iconfont icon-shezhi" style="font-size:20px;margin-right:10px"></i>设置<i class="iconfont icon-arrow-right" style="float:right"></i></button>
+  </div>
+
+
+</ion-content>

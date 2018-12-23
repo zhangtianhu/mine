@@ -1,0 +1,88 @@
+page-home {
+  ion-content{
+    // background-image: url("../../assets/imgs/hmbg.jpeg");
+  }
+
+
+  ion-header {
+    height: 50px;
+    line-height: 50px;
+    
+    .rightFloat {
+      float: right;
+    }
+
+    .temp {
+      
+      font-size: 14px;
+    }
+
+    .city {
+      font-size: 17px;
+    }
+
+    .floatleft {
+      font-size: 17px;
+      float: left;
+    }
+  }
+
+  .main{
+    height: 30em!important;
+    border: 1px solid darkgray;
+  }
+  .img{
+    height: 50%;
+    width: 100%;
+  }
+  ion-card-content{
+    text-align: left;
+    // height: 100%;
+    position: relative;
+    h1{
+      text-indent: 0.5em;
+    }
+    p{
+      margin-top: 10px!important;
+      text-indent: 2em;
+        max-height:100%;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4; 
+        -webkit-box-orient: vertical;
+    }
+    .bottom{
+      width: 100%;
+    }
+    .col{
+      ion-label{
+        height: 2em;
+        h3{
+          position: relative;
+          top:1em;
+        }
+      }
+        ion-col{
+            padding: 0;
+            margin: 0;
+        }
+        ion-label{
+            margin: 0;
+        }
+        ion-item{
+            padding: 0;
+        }
+        .num{
+            float: left;
+            position: relative;
+            top:1em;
+        }
+    }
+  }
+  .love{
+    color: red;
+  }
+
+}

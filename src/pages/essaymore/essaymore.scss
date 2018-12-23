@@ -1,0 +1,73 @@
+page-essaymore {
+    ion-content {
+        .item-md {
+          padding: 0;
+        }
+    
+        p {
+          text-indent: 2px;
+        }
+      }
+    
+      .title {
+        max-width: 15em;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding-left: 2em;
+        margin: 0;
+      }
+    
+      .date {
+        float: right;
+        margin: 0;
+      }
+    
+      .div {
+        border-bottom: 1px solid gray;
+      }
+    .row{
+      margin: 0;
+      width: 100%;
+    }
+    .left{
+      overflow: hidden;
+    }
+      .username {
+        position: relative;
+        top: 1.6em;
+        width: 3em;
+        height: 0.7em;
+        overflow: hidden;
+      }
+    
+      .img {
+        float: left;
+        width: 50px;
+        height: 50px;
+        border-radius: 50% 50%;
+        overflow: hidden;
+      }
+    
+      .guanz {
+        width: 3em;
+        button{
+        position: relative;
+        top: 1.2em;
+        width: 3em;
+        height: 1.7em;
+        }
+      }
+    
+      #like {
+        line-height: 2em;
+        font-size: 2em;
+        float: left;
+        color: red;
+      }
+    
+      .likes {
+      line-height: 5em;
+      float: left;
+      }
+}

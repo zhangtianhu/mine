@@ -1,0 +1,63 @@
+page-movie {
+    ion-title{
+        padding-left: 4.5em;
+        margin: 0;
+        // text-align: center;
+    //     i{
+    //         font-size: 2em;
+    //     }
+    }
+    // .col{
+    //     padding: 0;
+    // }
+    // .card-content{
+    //     padding: 0;
+    // }
+    h3{
+        text-align: center;
+        margin: 0;
+    }
+    p{
+        text-indent: 2em;
+        text-align: left;
+        // max-height: 10em;
+        width: 22em;
+        overflow: hidden;
+    }
+    .slide-zoom{
+        position: absolute;
+        top:2em;
+    }
+    ion-row{
+        position: absolute;
+        bottom:1em;
+    }
+    ion-card{
+        height: 30em!important;
+        border-color: 1px solid pink;
+        ion-card-content{
+            text-align: left;
+        }
+        .row{
+            width: 100%;
+        }
+        .date{
+            float: right;
+        }
+    }
+    .item{
+        padding: 0;
+    }
+    vg-player{
+        height:15em;
+        width: 100%;
+        overflow: hidden;
+        video{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .love{
+        color: red;
+    }
+}

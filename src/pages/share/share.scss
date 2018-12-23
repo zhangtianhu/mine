@@ -1,0 +1,35 @@
+page-share {
+    ion-title{
+        text-align: center
+    }
+    ion-segment-button{
+        color:black !important;
+        font-size: 1.1em !important;
+    }
+    .name{
+        text-align: center;
+    }
+    video{
+        width: 100%;
+    }
+    .card-content{
+        padding: 0;
+    }
+    ion-card {
+        .card-title-md {
+          margin: 4px 0;
+        }
+  
+        .col {
+          height: 66px;
+          line-height: 44px;
+        }
+  
+        p {
+          text-indent: 2em;
+        }
+      }
+      .item-md {
+        padding: 0;
+      }
+}
